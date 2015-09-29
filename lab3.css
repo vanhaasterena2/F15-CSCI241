@@ -1,0 +1,38 @@
+table td {
+margin: 3px;
+padding: 4px;
+margin-top: 20px;
+margin-bottom:20px;
+border-collapse: collapse;
+}
+
+th {
+font-family: Helvetica, sans-serif;
+font-size: .7em;
+color: #000;
+padding: 10px 12px;
+}
+
+td {
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	padding: 10px 12px;
+	font-weight: bold;
+	background: #999;
+	text-align: left;
+	
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: left;
+	font-weight: bold;
+	margin-left: 3px;
+
+html{
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	background: #666;
+	color: #000;
+}
