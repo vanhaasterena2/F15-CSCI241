@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 	<head>
 		<title>Calculator - Lab3</title>
-		<link href="lab3.css" rel="stylesheet" type="text/css" 
+		<link href="lab3.css" rel="stylesheet" type="text/css"> 
 	</head>
 	<body>
 	<h1>Sales Calculator</h1>
@@ -45,7 +45,8 @@ if($_SERVER["REQUEST_METHOD"] =="GET")
 	if (isset($_POST['applyTax'])){
 		$tax= .07 * $subTotal;
 		echo "tax:" . $tax;	
-		
+		$total= $subtotal + $tax;
+		echo "total:" . $total;
 	}
 }	
 		?>
