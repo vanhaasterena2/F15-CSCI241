@@ -1,0 +1,20 @@
+html{
+	font-family:"Arial";
+}
+table{
+	margin: 10px;
+}
+
+table td{
+	padding: 5px;
+	width: 50px;
+	
+}
+
+h1{
+	margin: 0px 0px 0px 10px;
+}
+
+pre{
+	margin: 15px;
+}
