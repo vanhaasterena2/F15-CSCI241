@@ -20,22 +20,33 @@ if($_SERVER["REQUEST_METHOD"] =="GET")
 <?php
 } else if($_SERVER["REQUEST_METHOD"] == "POST"){
 ?>
-		<pre>
+
 <?php
+					
 					$start = $_POST["start"];
-					$end = $_POST["end"];			
+					$end = $_POST["end"];	
+					
+					echo "<pre>";
+					
+					for($col=$start; $col<=$end; $col++)
+						{
+							echo  "\t" . $col ;
+						}
+					
 					for( $row=$start; $row<=$end; $row++)
 					{
+						echo "\r\n";
+						echo $row . "\t";
+						
 						for($col=$start; $col<=$end; $col++)
 						{ 
 							echo ($row * $col) . "\t"; 
-							
 						}
-							echo "<br>";
-					}
 						
-}				
+					}
+					echo "</pre>";
+}	
 ?>			
-		</pre>
+	
 	</body>
 </html>
