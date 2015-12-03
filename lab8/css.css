@@ -1,0 +1,22 @@
+.nav{
+	
+	padding: 10px;
+	height: 3em;
+	background-color: #D66666;
+	font-size: 20px;
+	margin: auto;
+}
+.a{
+	color: #ffffff;
+}
+
+h1{
+	font-family: Arial;
+	font-size: 25px;
+	color: #D66666;
+	margin-top: 100px;
+}
+
+p{
+	font-size: 20px;
+}
