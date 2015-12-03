@@ -24,27 +24,48 @@ if($_SERVER["REQUEST_METHOD"] =="GET")
 <?php
 					
 					$start = $_POST["start"];
-					$end = $_POST["end"];	
+					$end = $_POST["end"];
+					$column = 1000;	
+					$begin = abs($start);
+					$finish = abs($end);
+					$range = $finish - $begin;
 					
-					echo "<pre>";
+					if($range <= $column)
+					{
+					echo "<table>";
+					echo "<tr>";
+						
+					echo "<td></td>";
 					
 					for($col=$start; $col<=$end; $col++)
 						{
-							echo  "\t" . $col ;
+							echo "<td>$col</td>";
 						}
+					echo "</tr>";
 					
 					for( $row=$start; $row<=$end; $row++)
 					{
-						echo "\r\n";
-						echo $row . "\t";
+						echo "<tr>";
+						echo "<td>$row</td>";
+						
 						
 						for($col=$start; $col<=$end; $col++)
-						{ 
-							echo ($row * $col) . "\t"; 
+						{
+							$result = ($row * $col);
+							echo "<td>$result</td>"; 
 						}
-						
+						echo "</tr>";
 					}
-					echo "</pre>";
+					
+					
+					
+					
+					echo "</table>";
+					}
+					
+else{
+	echo "Please enter a new number";
+}
 }	
 ?>			
 	
