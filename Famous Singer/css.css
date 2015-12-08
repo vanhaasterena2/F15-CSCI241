@@ -1,0 +1,82 @@
+h1{
+  font-family: "Century Gothic";
+  color: #000000;
+   margin-left: 1000px;
+   margin-top:-200px;	
+}
+
+h3{
+	font-family: "Century Gothic";
+	}
+#myButton {
+  font: "Century Gothic" ;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: pink;
+  color: #000000;
+  margin-left: 650px;
+  margin-bottom:60px;
+   margin-top:30px;
+  padding: 4px 8px 4px 8px;
+  border-top: 3px solid #CCCCCC;
+  border-right: 3px solid #333333;
+  border-bottom: 3px solid #333333;
+  border-left: 3px solid #CCCCCC;
+}
+
+#head{
+  font-family: "Century Gothic";
+  margin-left: 600px;
+  background-color: pink;
+  margin-top: 150px; 
+  font-size: 30px;
+}
+
+#yes{
+	margin-left: 480px;
+}
+
+.button{
+	display: block;
+}
+
+#submitbutton{
+margin-top: 10px;
+width: 200px;
+font-size: 20px;
+background-color: pink;
+}
+
+.questions{
+width: 100%;
+margin-left: 470px;
+font-family: "Century Gothic";
+}
+
+.message{
+	color: pink;
+}
+
+ul a{
+	color: pink;
+	font-size: 20px;
+	margin-left: 10px;
+	color: #000000;
+	background-color: pink;
+	text-align: left;
+	display: inline-block;
+	margin-bottom: -200px;
+}
+
+.message{
+	font-family: "Century Gothic"; 
+	text-align: center;
+	font-size: 30px;
+}
+
+html{
+background-image:url(celebrities.png);
+background-repeat: no-repeat;
+margin:0;	
+
+}
